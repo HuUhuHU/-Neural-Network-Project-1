@@ -1,0 +1,9 @@
+codes/dataset/MNIST/*.gz
+codes/best_models/
+*.pickle
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+6`2V5H)DP5A9N$RAGSM1`ZW.png
+codes/figs/
