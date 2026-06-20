@@ -45,7 +45,7 @@
 | 测试集准确率 | 0.8170 |
 
 **学习曲线**：训练损失逐步下降，验证准确率稳步上升，表明模型收敛正常。
-![MLP learning curve](MLP_learning_curve.png)
+![MLP learning curve](figs/MLP_learning_curve.png)
 
 ---
 
@@ -137,19 +137,19 @@ Baseline：SGD
 ## 5. Detailed visualization
 
 1. MLP 训练损失与准确率学习曲线
-![alt text](MLP_learning_curve.png)
+![MLP learning curve](figs/MLP_learning_curve.png)
 2. CNN 训练损失与准确率学习曲线
-![alt text](CNN_learning_curve.png)
+![CNN learning curve](figs/CNN_learning_curve.png)
 1. SGD vs Momentum 对比曲线
-![alt text](sgd_vs_momentum.png)
+![SGD vs Momentum](figs/sgd_vs_momentum.png)
 1. CNN 测试集混淆矩阵
-![alt text](CNN_confusion_matrix.png)
+![CNN confusion matrix](figs/CNN_confusion_matrix.png)
 1. 错分样本展示
-![alt text](misclassified_examples.png)
+![Misclassified examples](figs/misclassified_examples.png)
 1. 第一层卷积核可视化
-![alt text](<convolution_ kernels.png>)
+![Convolution kernels](<figs/convolution_ kernels.png>)
 1. MLP 权重可视化
-![alt text](MLP_weights.png)
+![MLP weights](figs/MLP_weights.png)
 ---
 
 ## Discussion
